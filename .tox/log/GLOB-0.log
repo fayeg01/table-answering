@@ -1,0 +1,296 @@
+action: GLOB, msg: packaging
+cwd: /home/geraud/ProjetIlluin/tapas
+cmd: /home/geraud/ProjetIlluin/env/bin/python setup.py sdist --formats=zip --dist-dir /home/geraud/ProjetIlluin/tapas/.tox/dist
+running sdist
+running egg_info
+writing tapas_table_parsing.egg-info/PKG-INFO
+writing dependency_links to tapas_table_parsing.egg-info/dependency_links.txt
+writing requirements to tapas_table_parsing.egg-info/requires.txt
+writing top-level names to tapas_table_parsing.egg-info/top_level.txt
+reading manifest file 'tapas_table_parsing.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+adding license file 'AUTHORS'
+writing manifest file 'tapas_table_parsing.egg-info/SOURCES.txt'
+running check
+/home/geraud/ProjetIlluin/env/lib/python3.8/site-packages/setuptools/dist.py:487: UserWarning: Normalizing '0.0.1.dev' to '0.0.1.dev0'
+  warnings.warn(tmpl.format(**locals()))
+warning: check: missing meta-data: if 'author' supplied, 'author_email' must be supplied too
+
+creating tapas-table-parsing-0.0.1.dev0
+creating tapas-table-parsing-0.0.1.dev0/tapas
+creating tapas-table-parsing-0.0.1.dev0/tapas/datasets
+creating tapas-table-parsing-0.0.1.dev0/tapas/experiments
+creating tapas-table-parsing-0.0.1.dev0/tapas/models
+creating tapas-table-parsing-0.0.1.dev0/tapas/models/bert
+creating tapas-table-parsing-0.0.1.dev0/tapas/protos
+creating tapas-table-parsing-0.0.1.dev0/tapas/scripts
+creating tapas-table-parsing-0.0.1.dev0/tapas/utils
+creating tapas-table-parsing-0.0.1.dev0/tapas_table_parsing.egg-info
+copying files to tapas-table-parsing-0.0.1.dev0...
+copying AUTHORS -> tapas-table-parsing-0.0.1.dev0
+copying LICENSE -> tapas-table-parsing-0.0.1.dev0
+copying MANIFEST.in -> tapas-table-parsing-0.0.1.dev0
+copying README.md -> tapas-table-parsing-0.0.1.dev0
+copying requirements.txt -> tapas-table-parsing-0.0.1.dev0
+copying setup.py -> tapas-table-parsing-0.0.1.dev0
+copying tapas/__init__.py -> tapas-table-parsing-0.0.1.dev0/tapas
+copying tapas/create_intermediate_pretrain_examples_main.py -> tapas-table-parsing-0.0.1.dev0/tapas
+copying tapas/create_pretrain_examples_main.py -> tapas-table-parsing-0.0.1.dev0/tapas
+copying tapas/run_task_main.py -> tapas-table-parsing-0.0.1.dev0/tapas
+copying tapas/datasets/__init__.py -> tapas-table-parsing-0.0.1.dev0/tapas/datasets
+copying tapas/datasets/dataset.py -> tapas-table-parsing-0.0.1.dev0/tapas/datasets
+copying tapas/datasets/dataset_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/datasets
+copying tapas/datasets/table_dataset.py -> tapas-table-parsing-0.0.1.dev0/tapas/datasets
+copying tapas/datasets/table_dataset_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/datasets
+copying tapas/datasets/table_dataset_test_utils.py -> tapas-table-parsing-0.0.1.dev0/tapas/datasets
+copying tapas/experiments/__init__.py -> tapas-table-parsing-0.0.1.dev0/tapas/experiments
+copying tapas/experiments/prediction_utils.py -> tapas-table-parsing-0.0.1.dev0/tapas/experiments
+copying tapas/experiments/prediction_utils_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/experiments
+copying tapas/experiments/table_retriever_experiment.py -> tapas-table-parsing-0.0.1.dev0/tapas/experiments
+copying tapas/experiments/tapas_classifier_experiment.py -> tapas-table-parsing-0.0.1.dev0/tapas/experiments
+copying tapas/experiments/tapas_pretraining_experiment.py -> tapas-table-parsing-0.0.1.dev0/tapas/experiments
+copying tapas/models/__init__.py -> tapas-table-parsing-0.0.1.dev0/tapas/models
+copying tapas/models/segmented_tensor.py -> tapas-table-parsing-0.0.1.dev0/tapas/models
+copying tapas/models/segmented_tensor_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/models
+copying tapas/models/table_retriever_model.py -> tapas-table-parsing-0.0.1.dev0/tapas/models
+copying tapas/models/table_retriever_model_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/models
+copying tapas/models/tapas_classifier_model.py -> tapas-table-parsing-0.0.1.dev0/tapas/models
+copying tapas/models/tapas_classifier_model_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/models
+copying tapas/models/tapas_classifier_model_utils.py -> tapas-table-parsing-0.0.1.dev0/tapas/models
+copying tapas/models/tapas_pretraining_model.py -> tapas-table-parsing-0.0.1.dev0/tapas/models
+copying tapas/models/tapas_pretraining_model_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/models
+copying tapas/models/bert/__init__.py -> tapas-table-parsing-0.0.1.dev0/tapas/models/bert
+copying tapas/models/bert/modeling.py -> tapas-table-parsing-0.0.1.dev0/tapas/models/bert
+copying tapas/models/bert/modeling_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/models/bert
+copying tapas/models/bert/optimization.py -> tapas-table-parsing-0.0.1.dev0/tapas/models/bert
+copying tapas/models/bert/optimization_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/models/bert
+copying tapas/models/bert/table_bert.py -> tapas-table-parsing-0.0.1.dev0/tapas/models/bert
+copying tapas/protos/__init__.py -> tapas-table-parsing-0.0.1.dev0/tapas/protos
+copying tapas/protos/annotated_text_pb2.py -> tapas-table-parsing-0.0.1.dev0/tapas/protos
+copying tapas/protos/interaction_pb2.py -> tapas-table-parsing-0.0.1.dev0/tapas/protos
+copying tapas/protos/negative_retrieval_examples_pb2.py -> tapas-table-parsing-0.0.1.dev0/tapas/protos
+copying tapas/protos/retriever_info_pb2.py -> tapas-table-parsing-0.0.1.dev0/tapas/protos
+copying tapas/protos/table_pruning_pb2.py -> tapas-table-parsing-0.0.1.dev0/tapas/protos
+copying tapas/protos/table_selection_pb2.py -> tapas-table-parsing-0.0.1.dev0/tapas/protos
+copying tapas/scripts/__init__.py -> tapas-table-parsing-0.0.1.dev0/tapas/scripts
+copying tapas/scripts/calc_metrics.py -> tapas-table-parsing-0.0.1.dev0/tapas/scripts
+copying tapas/scripts/calc_metrics_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/scripts
+copying tapas/scripts/calc_metrics_utils.py -> tapas-table-parsing-0.0.1.dev0/tapas/scripts
+copying tapas/scripts/convert_predictions.py -> tapas-table-parsing-0.0.1.dev0/tapas/scripts
+copying tapas/scripts/convert_predictions_utils.py -> tapas-table-parsing-0.0.1.dev0/tapas/scripts
+copying tapas/scripts/convert_predictions_utils_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/scripts
+copying tapas/scripts/eval_table_retriever.py -> tapas-table-parsing-0.0.1.dev0/tapas/scripts
+copying tapas/scripts/eval_table_retriever_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/scripts
+copying tapas/scripts/eval_table_retriever_utils.py -> tapas-table-parsing-0.0.1.dev0/tapas/scripts
+copying tapas/scripts/eval_wikisql.py -> tapas-table-parsing-0.0.1.dev0/tapas/scripts
+copying tapas/scripts/prediction_utils.py -> tapas-table-parsing-0.0.1.dev0/tapas/scripts
+copying tapas/scripts/prediction_utils_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/scripts
+copying tapas/scripts/preprocess_nq.py -> tapas-table-parsing-0.0.1.dev0/tapas/scripts
+copying tapas/scripts/preprocess_nq_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/scripts
+copying tapas/scripts/preprocess_nq_utils.py -> tapas-table-parsing-0.0.1.dev0/tapas/scripts
+copying tapas/utils/__init__.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/attention_utils.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/attention_utils_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/beam_runner.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/beam_utils.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/beam_utils_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/constants.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/contrastive_statements.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/contrastive_statements_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/create_data.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/create_data_file_io.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/create_data_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/experiment_utils.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/experiment_utils_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/file_utils.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/hparam_utils.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/hybridqa_rc_utils.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/hybridqa_rc_utils_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/hybridqa_utils.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/hybridqa_utils_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/interaction_utils.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/interaction_utils_parser.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/interaction_utils_parser_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/interaction_utils_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/intermediate_pretrain_utils.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/intermediate_pretrain_utils_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/interpretation_utils.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/interpretation_utils_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/number_annotation_utils.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/number_annotation_utils_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/number_utils.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/number_utils_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/pretrain_utils.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/pruning_utils.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/pruning_utils_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/sem_tab_fact_utils.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/sem_tab_fact_utils_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/sentence_tokenizer.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/sentence_tokenizer_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/span_prediction_utils.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/span_prediction_utils_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/sqa_utils.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/synthesize_entablement.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/synthesize_entablement_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/tabfact_utils.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/table_pruning.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/table_pruning_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/task_utils.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/tasks.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/text_index.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/text_index_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/text_utils.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/text_utils_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/tf_example_utils.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/tf_example_utils_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/wikisql_utils.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/wikisql_utils_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/wtq_utils.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas/utils/wtq_utils_test.py -> tapas-table-parsing-0.0.1.dev0/tapas/utils
+copying tapas_table_parsing.egg-info/PKG-INFO -> tapas-table-parsing-0.0.1.dev0/tapas_table_parsing.egg-info
+copying tapas_table_parsing.egg-info/SOURCES.txt -> tapas-table-parsing-0.0.1.dev0/tapas_table_parsing.egg-info
+copying tapas_table_parsing.egg-info/dependency_links.txt -> tapas-table-parsing-0.0.1.dev0/tapas_table_parsing.egg-info
+copying tapas_table_parsing.egg-info/requires.txt -> tapas-table-parsing-0.0.1.dev0/tapas_table_parsing.egg-info
+copying tapas_table_parsing.egg-info/top_level.txt -> tapas-table-parsing-0.0.1.dev0/tapas_table_parsing.egg-info
+Writing tapas-table-parsing-0.0.1.dev0/setup.cfg
+creating /home/geraud/ProjetIlluin/tapas/.tox/dist
+creating '/home/geraud/ProjetIlluin/tapas/.tox/dist/tapas-table-parsing-0.0.1.dev0.zip' and adding 'tapas-table-parsing-0.0.1.dev0' to it
+adding 'tapas-table-parsing-0.0.1.dev0'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas_table_parsing.egg-info'
+adding 'tapas-table-parsing-0.0.1.dev0/LICENSE'
+adding 'tapas-table-parsing-0.0.1.dev0/AUTHORS'
+adding 'tapas-table-parsing-0.0.1.dev0/README.md'
+adding 'tapas-table-parsing-0.0.1.dev0/MANIFEST.in'
+adding 'tapas-table-parsing-0.0.1.dev0/setup.cfg'
+adding 'tapas-table-parsing-0.0.1.dev0/setup.py'
+adding 'tapas-table-parsing-0.0.1.dev0/requirements.txt'
+adding 'tapas-table-parsing-0.0.1.dev0/PKG-INFO'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/experiments'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/datasets'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/protos'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/scripts'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/models'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/create_pretrain_examples_main.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/run_task_main.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/__init__.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/create_intermediate_pretrain_examples_main.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/experiments/prediction_utils_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/experiments/tapas_pretraining_experiment.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/experiments/prediction_utils.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/experiments/tapas_classifier_experiment.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/experiments/table_retriever_experiment.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/experiments/__init__.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/datasets/table_dataset_test_utils.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/datasets/dataset_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/datasets/table_dataset.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/datasets/table_dataset_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/datasets/dataset.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/datasets/__init__.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/protos/table_selection_pb2.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/protos/retriever_info_pb2.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/protos/interaction_pb2.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/protos/annotated_text_pb2.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/protos/table_pruning_pb2.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/protos/negative_retrieval_examples_pb2.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/protos/__init__.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/scripts/prediction_utils_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/scripts/calc_metrics_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/scripts/eval_wikisql.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/scripts/preprocess_nq_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/scripts/eval_table_retriever_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/scripts/convert_predictions_utils_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/scripts/preprocess_nq_utils.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/scripts/convert_predictions_utils.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/scripts/preprocess_nq.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/scripts/convert_predictions.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/scripts/calc_metrics.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/scripts/eval_table_retriever.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/scripts/calc_metrics_utils.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/scripts/prediction_utils.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/scripts/eval_table_retriever_utils.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/scripts/__init__.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/span_prediction_utils_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/interaction_utils.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/text_index.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/number_utils.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/sem_tab_fact_utils_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/interaction_utils_parser.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/attention_utils.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/text_utils.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/interaction_utils_parser_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/number_utils_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/beam_runner.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/sentence_tokenizer.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/hybridqa_rc_utils.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/sentence_tokenizer_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/beam_utils.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/text_index_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/tf_example_utils_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/intermediate_pretrain_utils.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/wtq_utils.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/interaction_utils_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/create_data_file_io.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/interpretation_utils.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/tf_example_utils.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/contrastive_statements.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/pruning_utils_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/sqa_utils.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/hybridqa_utils_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/table_pruning.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/task_utils.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/tabfact_utils.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/hparam_utils.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/hybridqa_utils.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/pruning_utils.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/contrastive_statements_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/constants.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/text_utils_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/number_annotation_utils_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/intermediate_pretrain_utils_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/wtq_utils_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/hybridqa_rc_utils_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/synthesize_entablement.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/experiment_utils.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/tasks.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/wikisql_utils_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/interpretation_utils_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/wikisql_utils.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/synthesize_entablement_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/beam_utils_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/sem_tab_fact_utils.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/experiment_utils_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/table_pruning_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/create_data_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/create_data.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/__init__.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/number_annotation_utils.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/span_prediction_utils.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/file_utils.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/attention_utils_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/utils/pretrain_utils.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/models/bert'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/models/tapas_classifier_model_utils.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/models/table_retriever_model_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/models/table_retriever_model.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/models/tapas_classifier_model.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/models/tapas_pretraining_model_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/models/tapas_classifier_model_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/models/segmented_tensor.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/models/tapas_pretraining_model.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/models/segmented_tensor_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/models/__init__.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/models/bert/modeling.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/models/bert/optimization.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/models/bert/table_bert.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/models/bert/__init__.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/models/bert/optimization_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas/models/bert/modeling_test.py'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas_table_parsing.egg-info/top_level.txt'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas_table_parsing.egg-info/dependency_links.txt'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas_table_parsing.egg-info/SOURCES.txt'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas_table_parsing.egg-info/requires.txt'
+adding 'tapas-table-parsing-0.0.1.dev0/tapas_table_parsing.egg-info/PKG-INFO'
+removing 'tapas-table-parsing-0.0.1.dev0' (and everything under it)

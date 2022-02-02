@@ -1,0 +1,10 @@
+{"phase": 1, "table_id": "1-10015132-16", "question": "What is terrence ross' nationality", "sql": {"sel": 2, "conds": [[0, 0, "Terrence Ross"]], "agg": 0}}
+{"phase": 1, "table_id": "1-10015132-16", "question": "What clu was in toronto 1995-96", "sql": {"sel": 5, "conds": [[4, 0, "1995-96"]], "agg": 0}}
+{"phase": 1, "table_id": "1-10015132-16", "question": "which club was in toronto 2003-06", "sql": {"sel": 5, "conds": [[4, 0, "2003-06"]], "agg": 0}}
+{"phase": 1, "table_id": "1-10015132-16", "question": "how many schools or teams had jalen rose", "sql": {"sel": 5, "conds": [[0, 0, "Jalen Rose"]], "agg": 3}}
+{"phase": 1, "table_id": "1-10083598-1", "question": "Where was Assen held?", "sql": {"sel": 2, "conds": [[3, 0, "Assen"]], "agg": 0}}
+{"phase": 1, "table_id": "1-10083598-1", "question": "What was the number of race that Kevin Curtain won?", "sql": {"sel": 0, "conds": [[4, 0, "Kevin Curtain"]], "agg": 3}}
+{"phase": 1, "table_id": "1-10083598-1", "question": "What was the date of the race in Misano?", "sql": {"sel": 1, "conds": [[3, 0, "Misano"]], "agg": 0}}
+{"phase": 1, "table_id": "1-1013129-2", "question": "How many different positions did Sherbrooke Faucons (qmjhl) provide in the draft?", "sql": {"sel": 2, "conds": [[5, 0, "Sherbrooke Faucons (QMJHL)"]], "agg": 3}}
+{"phase": 1, "table_id": "1-1013129-2", "question": "What are the nationalities of the player picked from Thunder Bay Flyers (ushl)", "sql": {"sel": 3, "conds": [[5, 0, "Thunder Bay Flyers (USHL)"]], "agg": 0}}
+{"phase": 1, "table_id": "1-1013129-2", "question": "How many different college/junior/club teams provided a player to the Washington Capitals NHL Team?", "sql": {"sel": 5, "conds": [[4, 0, "Washington Capitals"]], "agg": 3}}

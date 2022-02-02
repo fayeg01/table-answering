@@ -1,0 +1,12 @@
+{"phase": 1, "table_id": "1-1000181-1", "question": "Tell me what the notes are for South Australia ", "sql": {"sel": 5, "conds": [[3, 0, "SOUTH AUSTRALIA"]], "agg": 0}}
+{"phase": 1, "table_id": "1-1000181-1", "question": "What is the current series where the new series began in June 2011?", "sql": {"sel": 4, "conds": [[5, 0, "New series began in June 2011"]], "agg": 0}}
+{"phase": 1, "table_id": "1-1000181-1", "question": "What is the format for South Australia?", "sql": {"sel": 2, "conds": [[0, 0, "South Australia"]], "agg": 0}}
+{"phase": 1, "table_id": "1-1000181-1", "question": "Name the background colour for the Australian Capital Territory", "sql": {"sel": 1, "conds": [[0, 0, "Australian Capital Territory"]], "agg": 0}}
+{"phase": 1, "table_id": "1-10007452-3", "question": "how many times is the fuel propulsion is cng?", "sql": {"sel": 3, "conds": [[5, 0, "CNG"]], "agg": 3}}
+{"phase": 1, "table_id": "1-10007452-3", "question": "what is the fuel propulsion where the fleet series (quantity) is 310-329 (20)?", "sql": {"sel": 5, "conds": [[3, 0, "310-329 (20)"]], "agg": 0}}
+{"phase": 1, "table_id": "1-10007452-3", "question": "who is the manufacturer for the order year 1998?", "sql": {"sel": 1, "conds": [[0, 0, "1998"]], "agg": 0}}
+{"phase": 1, "table_id": "1-10007452-3", "question": "how many times is the model ge40lfr?", "sql": {"sel": 1, "conds": [[2, 0, "GE40LFR"]], "agg": 3}}
+{"phase": 1, "table_id": "1-10007452-3", "question": "how many times is the fleet series (quantity) is 468-473 (6)?", "sql": {"sel": 0, "conds": [[3, 0, "468-473 (6)"]], "agg": 3}}
+{"phase": 1, "table_id": "1-10007452-3", "question": "what is the powertrain (engine/transmission) when the order year is 2000?", "sql": {"sel": 4, "conds": [[0, 0, "2000"]], "agg": 0}}
+{"phase": 1, "table_id": "1-10006830-1", "question": "What if the description of a ch-47d chinook?", "sql": {"sel": 1, "conds": [[0, 0, "CH-47D Chinook"]], "agg": 0}}
+{"phase": 1, "table_id": "1-10006830-1", "question": "What is the max gross weight of the Robinson R-22?", "sql": {"sel": 2, "conds": [[0, 0, "Robinson R-22"]], "agg": 0}}
