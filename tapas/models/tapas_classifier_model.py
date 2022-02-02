@@ -997,7 +997,7 @@ def model_fn_builder(
         reset_position_index_per_cell=config.reset_position_index_per_cell,
         proj_value_length=config.proj_value_length,
     )
-
+    
     answer, numeric_values, numeric_values_scale = (
         utils.extract_answer_from_features(
             features=features,

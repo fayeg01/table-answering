@@ -28,8 +28,8 @@ from absl import flags
 from absl import logging
 from tapas.experiments import prediction_utils as exp_prediction_utils
 from tapas.models import tapas_classifier_model
-# from tapas.models.bert import modeling
-from models.transformers.models.camembert import modeling_tf_camembert
+from tapas.models.bert import modeling
+# from models.transformers.models.camembert import modeling_tf_camembert
 from tapas.retrieval import e2e_eval_utils
 from tapas.scripts import calc_metrics_utils
 from tapas.scripts import prediction_utils
@@ -470,6 +470,7 @@ def _train_and_predict(
       table_pruning_config_file=FLAGS.table_pruning_config_file)
 
   model_fn = tapas_classifier_model.model_fn_builder(tapas_config)
+  
 
   is_per_host = tf.estimator.tpu.InputPipelineConfig.PER_HOST_V2
 
