@@ -402,6 +402,15 @@ python3 tapas/run_task_main.py \
   --mode="train"
 ```
 
+```bash
+python3 tapas/run_task_main.py \
+  --task="WIKISQL" \
+  --output_dir="tapas/WikiSQLOutput" \
+  --init_checkpoint="tapas/TapasData/bert-base-french-europeana-cased/model.ckpt" \
+  --bert_config_file="tapas/TapasData/bert-base-french-europeana-cased/bert_config.json" \
+  --mode="train"
+```
+
 This will use the preset hyper-parameters set in `hparam_utils.py`.
 
 It's recommended to start a separate eval job to continuously produce predictions
